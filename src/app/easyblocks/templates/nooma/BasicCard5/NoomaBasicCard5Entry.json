@@ -1,0 +1,389 @@
+{
+  "_id": "b265f4ed-047a-4a4b-86fb-5ba15bcaa3c0",
+  "_component": "BannerCard",
+  "_itemProps": {
+    "Grid": {
+      "Cards": {
+        "itemSize": {
+          "$res": true,
+          "xl": "1x1"
+        },
+        "verticalAlign": {
+          "$res": true,
+          "xl": "auto"
+        }
+      }
+    }
+  },
+  "coverPosition": {
+    "$res": true,
+    "xl": "background"
+  },
+  "coverVerticalAlign": "stretch",
+  "coverWidth": {
+    "$res": true,
+    "xl": "50%"
+  },
+  "snapCoverToEdges": false,
+  "CoverCard": [
+    {
+      "_id": "b7c8cdb5-bb24-46d7-ae60-1075df908eb2",
+      "_component": "CoverCard",
+      "Background": [
+        {
+          "_id": "180f710a-be98-4ec0-ba83-fb54722f9f52",
+          "_component": "Video",
+          "_itemProps": {
+            "CoverCard": {
+              "Background": {}
+            }
+          },
+          "image": {
+            "id": "NLwnsZTiR2B8dSYEaPkT5",
+            "widgetId": "mockVideo"
+          },
+          "aspectRatio": {
+            "$res": true,
+            "xl": {
+              "value": "1:1",
+              "widgetId": "@easyblocks/aspectRatio"
+            }
+          },
+          "enablePlaybackControls": true,
+          "PlayButton": [
+            {
+              "_id": "c75c0ec8-79e0-4753-b20e-447867fe00eb",
+              "_component": "button"
+            }
+          ],
+          "PauseButton": [
+            {
+              "_id": "fd206dc4-f322-45ce-9c0f-b570e2743214",
+              "_component": "button"
+            }
+          ],
+          "autoplay": true,
+          "enableSoundControls": true,
+          "MuteButton": [
+            {
+              "_id": "6af7ad69-31ef-4b6e-b521-c2d70fd84954",
+              "_component": "button"
+            }
+          ],
+          "UnmuteButton": [
+            {
+              "_id": "7bb0118d-b6b7-4f9a-9e18-865c34bd7ebb",
+              "_component": "button"
+            }
+          ],
+          "controlsPosition": {
+            "$res": true,
+            "xl": "bottom-right"
+          },
+          "margin": {
+            "$res": true,
+            "xl": {
+              "tokenId": "8",
+              "value": "8px",
+              "widgetId": "@easyblocks/space"
+            }
+          },
+          "gap": {
+            "$res": true,
+            "xl": {
+              "tokenId": "6",
+              "value": "6px",
+              "widgetId": "@easyblocks/space"
+            }
+          }
+        }
+      ],
+      "aspectRatio": {
+        "$res": true,
+        "xl": {
+          "tokenId": "portrait",
+          "value": "4:5",
+          "widgetId": "@easyblocks/aspectRatio"
+        }
+      },
+      "enableBorder": {
+        "$res": true,
+        "xl": false
+      },
+      "borderColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "borderLeft": "1",
+      "borderRight": "1",
+      "borderTop": "1",
+      "borderBottom": "1",
+      "cornerRadius": {
+        "$res": true,
+        "xl": "0"
+      },
+      "overlayOpacity": {
+        "$res": true,
+        "xl": "0"
+      }
+    }
+  ],
+  "stackPosition": {
+    "$res": true,
+    "xl": "center-center"
+  },
+  "paddingLeft": {
+    "$res": true,
+    "xl": {
+      "value": "16px",
+      "tokenId": "16",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "paddingRight": {
+    "$res": true,
+    "xl": {
+      "value": "16px",
+      "tokenId": "16",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "paddingTop": {
+    "$res": true,
+    "xl": {
+      "value": "16px",
+      "tokenId": "16",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "paddingBottom": {
+    "$res": true,
+    "xl": {
+      "value": "16px",
+      "tokenId": "16",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "noFillPaddingLeft": {
+    "$res": true,
+    "xl": {
+      "value": "0px",
+      "tokenId": "0",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "noFillPaddingRight": {
+    "$res": true,
+    "xl": {
+      "value": "0px",
+      "tokenId": "0",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "noFillPaddingTop": {
+    "$res": true,
+    "xl": {
+      "value": "0px",
+      "tokenId": "0",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "noFillPaddingBottom": {
+    "$res": true,
+    "xl": {
+      "value": "0px",
+      "tokenId": "0",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "paddingInternal": {
+    "$res": true,
+    "xl": {
+      "value": "16px",
+      "tokenId": "16",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "forceStandardHorizontalPaddings": {
+    "$res": true,
+    "xl": false
+  },
+  "enableFill": {
+    "$res": true,
+    "xl": false
+  },
+  "fillColor": {
+    "$res": true,
+    "xl": {
+      "value": "#000000",
+      "widgetId": "@easyblocks/color",
+      "tokenId": "black"
+    }
+  },
+  "enableBorder": {
+    "$res": true,
+    "xl": false
+  },
+  "borderColor": {
+    "$res": true,
+    "xl": {
+      "value": "#000000",
+      "widgetId": "@easyblocks/color",
+      "tokenId": "black"
+    }
+  },
+  "borderLeft": "1",
+  "borderRight": "1",
+  "borderTop": "1",
+  "borderBottom": "1",
+  "cornerRadius": {
+    "$res": true,
+    "xl": "0"
+  },
+  "Stack": [
+    {
+      "_id": "fc092865-6d5d-439d-917a-7f488c768e81",
+      "_component": "Stack",
+      "Items": [
+        {
+          "_id": "205ecf6d-a880-4d8d-8dbb-1bb1499defdf",
+          "_component": "@easyblocks/rich-text",
+          "_itemProps": {
+            "Stack": {
+              "Items": {
+                "width": {
+                  "$res": true,
+                  "xl": "512px"
+                },
+                "marginBottom": {
+                  "$res": true,
+                  "xl": {
+                    "value": "0px",
+                    "tokenId": "0",
+                    "widgetId": "@easyblocks/space"
+                  }
+                },
+                "align": {
+                  "$res": true,
+                  "xl": "center"
+                }
+              }
+            }
+          },
+          "elements": {
+            "en-US": [
+              {
+                "_component": "@easyblocks/rich-text-block-element",
+                "elements": [
+                  {
+                    "_component": "@easyblocks/rich-text-line-element",
+                    "elements": [
+                      {
+                        "_id": "cd9a6626-d929-4dda-b28d-a91ae62c6d08",
+                        "_component": "@easyblocks/rich-text-part",
+                        "color": {
+                          "$res": true,
+                          "xl": {
+                            "tokenId": "grey_01",
+                            "value": "#f9f8f3",
+                            "widgetId": "@easyblocks/color"
+                          }
+                        },
+                        "font": {
+                          "$res": true,
+                          "xl": {
+                            "value": {
+                              "fontSize": 20,
+                              "lineHeight": 1.8,
+                              "fontFamily": "test-soehne-mono"
+                            },
+                            "tokenId": "body"
+                          }
+                        },
+                        "value": "New in",
+                        "TextWrapper": []
+                      }
+                    ],
+                    "_id": "d6d715b7-eb3e-4567-ac4b-00e70bae86bd"
+                  },
+                  {
+                    "_component": "@easyblocks/rich-text-line-element",
+                    "elements": [
+                      {
+                        "_id": "06e588d7-452a-4914-8cbe-aed5f30edb82",
+                        "_component": "@easyblocks/rich-text-part",
+                        "color": {
+                          "$res": true,
+                          "xl": {
+                            "tokenId": "grey_01",
+                            "value": "#f9f8f3",
+                            "widgetId": "@easyblocks/color"
+                          }
+                        },
+                        "font": {
+                          "$res": true,
+                          "xl": {
+                            "tokenId": "heading2",
+                            "value": {
+                              "$res": true,
+                              "sm": {
+                                "fontFamily": "test-national-2",
+                                "fontSize": 24,
+                                "lineHeight": 1.2,
+                                "fontWeight": 700
+                              },
+                              "md": {
+                                "fontFamily": "test-national-2",
+                                "fontSize": 36,
+                                "lineHeight": 1.2,
+                                "fontWeight": 700
+                              }
+                            }
+                          }
+                        },
+                        "value": "Accessories",
+                        "TextWrapper": []
+                      }
+                    ],
+                    "_id": "7d47a81d-22e5-4510-8d1e-91d641513ce0"
+                  }
+                ],
+                "type": "paragraph",
+                "_id": "7ac17b50-63dd-43bd-94a1-565cbdda45c8"
+              }
+            ]
+          },
+          "align": {
+            "$res": true,
+            "xl": "left"
+          },
+          "accessibilityRole": "div",
+          "isListStyleAuto": true,
+          "mainFont": {
+            "$res": true,
+            "xl": {
+              "value": {
+                "fontSize": 20,
+                "lineHeight": 1.8,
+                "fontFamily": "test-soehne-mono"
+              },
+              "tokenId": "body"
+            }
+          },
+          "mainColor": {
+            "$res": true,
+            "xl": {
+              "value": "#252525",
+              "tokenId": "grey_05",
+              "widgetId": "@easyblocks/color"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3247 @@
+{
+  "_id": "2a34a733-54db-4736-adf1-a5e01abb345c",
+  "_component": "Grid",
+  "_itemProps": {
+    "StandardPage": {
+      "data": {
+        "topMargin": {
+          "$res": true,
+          "xl": {
+            "value": "0px",
+            "tokenId": "0",
+            "widgetId": "@easyblocks/space"
+          }
+        },
+        "bottomMargin": {
+          "$res": true,
+          "xl": {
+            "value": "32px",
+            "tokenId": "32",
+            "widgetId": "@easyblocks/space"
+          }
+        }
+      }
+    }
+  },
+  "containerMargin": {
+    "$res": true,
+    "xl": {
+      "value": {
+        "$res": true,
+        "md": "5vw",
+        "lg": "8vw"
+      },
+      "tokenId": "containerMargin.standard",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "containerMaxWidth": {
+    "$res": true,
+    "xl": {
+      "value": -1,
+      "tokenId": "none"
+    }
+  },
+  "escapeMargin": {
+    "$res": true,
+    "xl": true
+  },
+  "Cards": [
+    {
+      "_id": "919688f7-52c9-4546-bf46-31ffd4ae8c74",
+      "_component": "BannerCard",
+      "_itemProps": {
+        "Grid": {
+          "Cards": {
+            "itemSize": {
+              "$res": true,
+              "xl": "1x1"
+            },
+            "verticalAlign": {
+              "$res": true,
+              "xl": "auto"
+            }
+          }
+        }
+      },
+      "coverPosition": {
+        "$res": true,
+        "xl": "background"
+      },
+      "coverVerticalAlign": "stretch",
+      "coverWidth": {
+        "$res": true,
+        "xl": "50%"
+      },
+      "snapCoverToEdges": false,
+      "CoverCard": [
+        {
+          "_id": "ad178239-4d12-4880-b126-c4459c2c4beb",
+          "_component": "CoverCard",
+          "Background": [
+            {
+              "_id": "ec9572a3-ffe0-4486-9bd5-1fd687d4c976",
+              "_component": "Image",
+              "image": {
+                "id": "1JJzf4oPaNvaFJOFI0PN7C",
+                "widgetId": "mockImage"
+              },
+              "aspectRatio": {
+                "$res": true,
+                "xl": {
+                  "value": "1:1",
+                  "widgetId": "@easyblocks/aspectRatio"
+                }
+              }
+            }
+          ],
+          "aspectRatio": {
+            "$res": true,
+            "xl": {
+              "tokenId": "portrait",
+              "value": "4:5",
+              "widgetId": "@easyblocks/aspectRatio"
+            }
+          },
+          "enableBorder": {
+            "$res": true,
+            "xl": false
+          },
+          "borderColor": {
+            "$res": true,
+            "xl": {
+              "value": "#000000",
+              "widgetId": "@easyblocks/color",
+              "tokenId": "black"
+            }
+          },
+          "borderLeft": "1",
+          "borderRight": "1",
+          "borderTop": "1",
+          "borderBottom": "1",
+          "cornerRadius": {
+            "$res": true,
+            "xl": "0"
+          },
+          "overlayOpacity": {
+            "$res": true,
+            "xl": "0"
+          }
+        }
+      ],
+      "stackPosition": {
+        "$res": true,
+        "xl": "bottom-center"
+      },
+      "paddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingInternal": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "forceStandardHorizontalPaddings": {
+        "$res": true,
+        "xl": false
+      },
+      "enableFill": {
+        "$res": true,
+        "xl": false
+      },
+      "fillColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "enableBorder": {
+        "$res": true,
+        "xl": false
+      },
+      "borderColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "borderLeft": "1",
+      "borderRight": "1",
+      "borderTop": "1",
+      "borderBottom": "1",
+      "cornerRadius": {
+        "$res": true,
+        "xl": "0"
+      },
+      "Stack": [
+        {
+          "_id": "3fda6051-b674-4f6c-80fd-ed5939351598",
+          "_component": "Stack",
+          "Items": [
+            {
+              "_id": "811c79ed-cf52-448e-adb7-23411a556bf6",
+              "_component": "ButtonGroup",
+              "_itemProps": {
+                "Stack": {
+                  "Items": {
+                    "width": {
+                      "$res": true,
+                      "xl": "512px"
+                    },
+                    "marginBottom": {
+                      "$res": true,
+                      "xl": {
+                        "value": "0px",
+                        "tokenId": "0",
+                        "widgetId": "@easyblocks/space"
+                      }
+                    },
+                    "align": {
+                      "$res": true,
+                      "xl": "center"
+                    }
+                  }
+                }
+              },
+              "verticalLayout": false,
+              "gap": {
+                "$res": true,
+                "xl": {
+                  "value": "12px",
+                  "tokenId": "12",
+                  "widgetId": "@easyblocks/space"
+                }
+              },
+              "Buttons": [
+                {
+                  "_id": "03480a20-8621-48db-9c61-fdefeb21023c",
+                  "_component": "Button",
+                  "_itemProps": {
+                    "ButtonGroup": {
+                      "Buttons": {}
+                    }
+                  },
+                  "Action": [],
+                  "variant": "label",
+                  "label": {
+                    "id": "local.c69f1b30-3f97-481e-952c-c832c48fe9b8",
+                    "value": {
+                      "en-US": "Sofas"
+                    },
+                    "widgetId": "@easyblocks/local-text"
+                  },
+                  "icon": {
+                    "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
+                    "widgetId": "@easyblocks/icon"
+                  },
+                  "color": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#252525",
+                      "tokenId": "grey_05",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "minHeight": {
+                    "$res": true,
+                    "xl": "42"
+                  },
+                  "minWidth": {
+                    "$res": true,
+                    "xl": "100"
+                  },
+                  "horizontalPadding": {
+                    "$res": true,
+                    "xl": {
+                      "value": "16px",
+                      "tokenId": "16",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "gap": {
+                    "$res": true,
+                    "xl": {
+                      "value": "6px",
+                      "tokenId": "6",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "cornerMode": {
+                    "$res": true,
+                    "xl": "sharp"
+                  },
+                  "cornerRadius": {
+                    "$res": true,
+                    "xl": "12"
+                  },
+                  "font": {
+                    "$res": true,
+                    "xl": {
+                      "value": {
+                        "fontSize": 13,
+                        "lineHeight": 1.8,
+                        "fontFamily": "test-soehne-mono"
+                      },
+                      "tokenId": "body2"
+                    }
+                  },
+                  "underline": "off",
+                  "underlineOffset": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "iconSize": {
+                    "$res": true,
+                    "xl": "24"
+                  },
+                  "hasBackground": true,
+                  "backgroundColor": {
+                    "$res": true,
+                    "xl": {
+                      "tokenId": "white",
+                      "value": "#ffffff",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "hasBorder": false,
+                  "borderWidth": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "borderColor": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#000000",
+                      "widgetId": "@easyblocks/color",
+                      "tokenId": "black"
+                    }
+                  },
+                  "boxShadow": {
+                    "$res": true,
+                    "xl": {
+                      "value": "none",
+                      "tokenId": "none"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "27b89704-c478-4f61-af8c-a2eb0a07991a",
+      "_component": "BannerCard",
+      "_itemProps": {
+        "Grid": {
+          "Cards": {
+            "itemSize": {
+              "$res": true,
+              "xl": "1x1"
+            },
+            "verticalAlign": {
+              "$res": true,
+              "xl": "auto"
+            }
+          }
+        }
+      },
+      "coverPosition": {
+        "$res": true,
+        "xl": "background"
+      },
+      "coverVerticalAlign": "stretch",
+      "coverWidth": {
+        "$res": true,
+        "xl": "50%"
+      },
+      "snapCoverToEdges": false,
+      "CoverCard": [
+        {
+          "_id": "c7c1b428-6870-484b-b021-0550aaef2b24",
+          "_component": "CoverCard",
+          "Background": [
+            {
+              "_id": "f07b1080-452f-44bf-930a-2cbba3cb9034",
+              "_component": "Image",
+              "image": {
+                "id": "nPeArtLJhInZw8CYb4sjl",
+                "widgetId": "mockImage"
+              },
+              "aspectRatio": {
+                "$res": true,
+                "xl": {
+                  "value": "1:1",
+                  "widgetId": "@easyblocks/aspectRatio"
+                }
+              }
+            }
+          ],
+          "aspectRatio": {
+            "$res": true,
+            "xl": {
+              "tokenId": "portrait",
+              "value": "4:5",
+              "widgetId": "@easyblocks/aspectRatio"
+            }
+          },
+          "enableBorder": {
+            "$res": true,
+            "xl": false
+          },
+          "borderColor": {
+            "$res": true,
+            "xl": {
+              "value": "#000000",
+              "widgetId": "@easyblocks/color",
+              "tokenId": "black"
+            }
+          },
+          "borderLeft": "1",
+          "borderRight": "1",
+          "borderTop": "1",
+          "borderBottom": "1",
+          "cornerRadius": {
+            "$res": true,
+            "xl": "0"
+          },
+          "overlayOpacity": {
+            "$res": true,
+            "xl": "0"
+          }
+        }
+      ],
+      "stackPosition": {
+        "$res": true,
+        "xl": "bottom-center"
+      },
+      "paddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingInternal": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "forceStandardHorizontalPaddings": {
+        "$res": true,
+        "xl": false
+      },
+      "enableFill": {
+        "$res": true,
+        "xl": false
+      },
+      "fillColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "enableBorder": {
+        "$res": true,
+        "xl": false
+      },
+      "borderColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "borderLeft": "1",
+      "borderRight": "1",
+      "borderTop": "1",
+      "borderBottom": "1",
+      "cornerRadius": {
+        "$res": true,
+        "xl": "0"
+      },
+      "Stack": [
+        {
+          "_id": "fcceabf0-2303-49be-8740-7210d8635049",
+          "_component": "Stack",
+          "Items": [
+            {
+              "_id": "ab6629bd-9dfb-4a8f-bc30-3f5d29cc6989",
+              "_component": "ButtonGroup",
+              "_itemProps": {
+                "Stack": {
+                  "Items": {
+                    "width": {
+                      "$res": true,
+                      "xl": "512px"
+                    },
+                    "marginBottom": {
+                      "$res": true,
+                      "xl": {
+                        "value": "0px",
+                        "tokenId": "0",
+                        "widgetId": "@easyblocks/space"
+                      }
+                    },
+                    "align": {
+                      "$res": true,
+                      "xl": "center"
+                    }
+                  }
+                }
+              },
+              "verticalLayout": false,
+              "gap": {
+                "$res": true,
+                "xl": {
+                  "value": "12px",
+                  "tokenId": "12",
+                  "widgetId": "@easyblocks/space"
+                }
+              },
+              "Buttons": [
+                {
+                  "_id": "b056e7b4-f2b3-4314-aa70-295b1fe3676a",
+                  "_component": "Button",
+                  "_itemProps": {
+                    "ButtonGroup": {
+                      "Buttons": {}
+                    }
+                  },
+                  "Action": [],
+                  "variant": "label",
+                  "label": {
+                    "id": "local.34e66ebd-c791-42b6-8b5d-57778fbb3c82",
+                    "value": {
+                      "en-US": "Accessories"
+                    },
+                    "widgetId": "@easyblocks/local-text"
+                  },
+                  "icon": {
+                    "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
+                    "widgetId": "@easyblocks/icon"
+                  },
+                  "color": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#252525",
+                      "tokenId": "grey_05",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "minHeight": {
+                    "$res": true,
+                    "xl": "42"
+                  },
+                  "minWidth": {
+                    "$res": true,
+                    "xl": "100"
+                  },
+                  "horizontalPadding": {
+                    "$res": true,
+                    "xl": {
+                      "value": "16px",
+                      "tokenId": "16",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "gap": {
+                    "$res": true,
+                    "xl": {
+                      "value": "6px",
+                      "tokenId": "6",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "cornerMode": {
+                    "$res": true,
+                    "xl": "sharp"
+                  },
+                  "cornerRadius": {
+                    "$res": true,
+                    "xl": "12"
+                  },
+                  "font": {
+                    "$res": true,
+                    "xl": {
+                      "value": {
+                        "fontSize": 13,
+                        "lineHeight": 1.8,
+                        "fontFamily": "test-soehne-mono"
+                      },
+                      "tokenId": "body2"
+                    }
+                  },
+                  "underline": "off",
+                  "underlineOffset": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "iconSize": {
+                    "$res": true,
+                    "xl": "24"
+                  },
+                  "hasBackground": true,
+                  "backgroundColor": {
+                    "$res": true,
+                    "xl": {
+                      "tokenId": "white",
+                      "value": "#ffffff",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "hasBorder": false,
+                  "borderWidth": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "borderColor": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#000000",
+                      "widgetId": "@easyblocks/color",
+                      "tokenId": "black"
+                    }
+                  },
+                  "boxShadow": {
+                    "$res": true,
+                    "xl": {
+                      "value": "none",
+                      "tokenId": "none"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "b0a21f15-737c-4e32-9aed-4da9195094c4",
+      "_component": "BannerCard",
+      "_itemProps": {
+        "Grid": {
+          "Cards": {
+            "itemSize": {
+              "$res": true,
+              "xl": "1x1"
+            },
+            "verticalAlign": {
+              "$res": true,
+              "xl": "auto"
+            }
+          }
+        }
+      },
+      "coverPosition": {
+        "$res": true,
+        "xl": "background"
+      },
+      "coverVerticalAlign": "stretch",
+      "coverWidth": {
+        "$res": true,
+        "xl": "50%"
+      },
+      "snapCoverToEdges": false,
+      "CoverCard": [
+        {
+          "_id": "bda6d862-4307-4391-a697-61bb98793ba3",
+          "_component": "CoverCard",
+          "Background": [
+            {
+              "_id": "11795f94-6b30-40e7-8062-82b3d7081f5a",
+              "_component": "Image",
+              "image": {
+                "id": "6pQ5dJeucfcnmBtZfDV9MI",
+                "widgetId": "mockImage"
+              },
+              "aspectRatio": {
+                "$res": true,
+                "xl": {
+                  "value": "1:1",
+                  "widgetId": "@easyblocks/aspectRatio"
+                }
+              }
+            }
+          ],
+          "aspectRatio": {
+            "$res": true,
+            "xl": {
+              "tokenId": "portrait",
+              "value": "4:5",
+              "widgetId": "@easyblocks/aspectRatio"
+            }
+          },
+          "enableBorder": {
+            "$res": true,
+            "xl": false
+          },
+          "borderColor": {
+            "$res": true,
+            "xl": {
+              "value": "#000000",
+              "widgetId": "@easyblocks/color",
+              "tokenId": "black"
+            }
+          },
+          "borderLeft": "1",
+          "borderRight": "1",
+          "borderTop": "1",
+          "borderBottom": "1",
+          "cornerRadius": {
+            "$res": true,
+            "xl": "0"
+          },
+          "overlayOpacity": {
+            "$res": true,
+            "xl": "0"
+          }
+        }
+      ],
+      "stackPosition": {
+        "$res": true,
+        "xl": "bottom-center"
+      },
+      "paddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingInternal": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "forceStandardHorizontalPaddings": {
+        "$res": true,
+        "xl": false
+      },
+      "enableFill": {
+        "$res": true,
+        "xl": false
+      },
+      "fillColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "enableBorder": {
+        "$res": true,
+        "xl": false
+      },
+      "borderColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "borderLeft": "1",
+      "borderRight": "1",
+      "borderTop": "1",
+      "borderBottom": "1",
+      "cornerRadius": {
+        "$res": true,
+        "xl": "0"
+      },
+      "Stack": [
+        {
+          "_id": "01344c9d-bbf5-429a-9cdf-dfd9e6b53a61",
+          "_component": "Stack",
+          "Items": [
+            {
+              "_id": "be48c3df-a070-419b-8f85-f64cb911cee6",
+              "_component": "ButtonGroup",
+              "_itemProps": {
+                "Stack": {
+                  "Items": {
+                    "width": {
+                      "$res": true,
+                      "xl": "512px"
+                    },
+                    "marginBottom": {
+                      "$res": true,
+                      "xl": {
+                        "value": "0px",
+                        "tokenId": "0",
+                        "widgetId": "@easyblocks/space"
+                      }
+                    },
+                    "align": {
+                      "$res": true,
+                      "xl": "center"
+                    }
+                  }
+                }
+              },
+              "verticalLayout": false,
+              "gap": {
+                "$res": true,
+                "xl": {
+                  "value": "12px",
+                  "tokenId": "12",
+                  "widgetId": "@easyblocks/space"
+                }
+              },
+              "Buttons": [
+                {
+                  "_id": "a1822107-c0da-47cf-8cf8-b04c2d1f6c40",
+                  "_component": "Button",
+                  "_itemProps": {
+                    "ButtonGroup": {
+                      "Buttons": {}
+                    }
+                  },
+                  "Action": [],
+                  "variant": "label",
+                  "label": {
+                    "id": "local.fb95b531-35dc-45fb-94b6-fec39715496e",
+                    "value": {
+                      "en-US": "Candles"
+                    },
+                    "widgetId": "@easyblocks/local-text"
+                  },
+                  "icon": {
+                    "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
+                    "widgetId": "@easyblocks/icon"
+                  },
+                  "color": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#252525",
+                      "tokenId": "grey_05",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "minHeight": {
+                    "$res": true,
+                    "xl": "42"
+                  },
+                  "minWidth": {
+                    "$res": true,
+                    "xl": "100"
+                  },
+                  "horizontalPadding": {
+                    "$res": true,
+                    "xl": {
+                      "value": "16px",
+                      "tokenId": "16",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "gap": {
+                    "$res": true,
+                    "xl": {
+                      "value": "6px",
+                      "tokenId": "6",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "cornerMode": {
+                    "$res": true,
+                    "xl": "sharp"
+                  },
+                  "cornerRadius": {
+                    "$res": true,
+                    "xl": "12"
+                  },
+                  "font": {
+                    "$res": true,
+                    "xl": {
+                      "value": {
+                        "fontSize": 13,
+                        "lineHeight": 1.8,
+                        "fontFamily": "test-soehne-mono"
+                      },
+                      "tokenId": "body2"
+                    }
+                  },
+                  "underline": "off",
+                  "underlineOffset": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "iconSize": {
+                    "$res": true,
+                    "xl": "24"
+                  },
+                  "hasBackground": true,
+                  "backgroundColor": {
+                    "$res": true,
+                    "xl": {
+                      "tokenId": "white",
+                      "value": "#ffffff",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "hasBorder": false,
+                  "borderWidth": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "borderColor": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#000000",
+                      "widgetId": "@easyblocks/color",
+                      "tokenId": "black"
+                    }
+                  },
+                  "boxShadow": {
+                    "$res": true,
+                    "xl": {
+                      "value": "none",
+                      "tokenId": "none"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "c611fe3b-3e04-4ac7-b73f-bcdd5b9a3986",
+      "_component": "BannerCard",
+      "_itemProps": {
+        "Grid": {
+          "Cards": {
+            "itemSize": {
+              "$res": true,
+              "xl": "1x1"
+            },
+            "verticalAlign": {
+              "$res": true,
+              "xl": "auto"
+            }
+          }
+        }
+      },
+      "coverPosition": {
+        "$res": true,
+        "xl": "background"
+      },
+      "coverVerticalAlign": "stretch",
+      "coverWidth": {
+        "$res": true,
+        "xl": "50%"
+      },
+      "snapCoverToEdges": false,
+      "CoverCard": [
+        {
+          "_id": "023fc9bb-4bde-4869-9993-e4ddf7ba2ae1",
+          "_component": "CoverCard",
+          "Background": [
+            {
+              "_id": "31dccf15-63d9-430d-ad79-de142f7cc97a",
+              "_component": "Image",
+              "image": {
+                "id": "2S7lwAKRDhY0dPN3PUNqev",
+                "widgetId": "mockImage"
+              },
+              "aspectRatio": {
+                "$res": true,
+                "xl": {
+                  "value": "1:1",
+                  "widgetId": "@easyblocks/aspectRatio"
+                }
+              }
+            }
+          ],
+          "aspectRatio": {
+            "$res": true,
+            "xl": {
+              "tokenId": "portrait",
+              "value": "4:5",
+              "widgetId": "@easyblocks/aspectRatio"
+            }
+          },
+          "enableBorder": {
+            "$res": true,
+            "xl": false
+          },
+          "borderColor": {
+            "$res": true,
+            "xl": {
+              "value": "#000000",
+              "widgetId": "@easyblocks/color",
+              "tokenId": "black"
+            }
+          },
+          "borderLeft": "1",
+          "borderRight": "1",
+          "borderTop": "1",
+          "borderBottom": "1",
+          "cornerRadius": {
+            "$res": true,
+            "xl": "0"
+          },
+          "overlayOpacity": {
+            "$res": true,
+            "xl": "0"
+          }
+        }
+      ],
+      "stackPosition": {
+        "$res": true,
+        "xl": "bottom-center"
+      },
+      "paddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingInternal": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "forceStandardHorizontalPaddings": {
+        "$res": true,
+        "xl": false
+      },
+      "enableFill": {
+        "$res": true,
+        "xl": false
+      },
+      "fillColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "enableBorder": {
+        "$res": true,
+        "xl": false
+      },
+      "borderColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "borderLeft": "1",
+      "borderRight": "1",
+      "borderTop": "1",
+      "borderBottom": "1",
+      "cornerRadius": {
+        "$res": true,
+        "xl": "0"
+      },
+      "Stack": [
+        {
+          "_id": "47f28cb5-4b10-4da6-9434-f86a7d0cfff8",
+          "_component": "Stack",
+          "Items": [
+            {
+              "_id": "247e4162-ab1d-415b-ab55-86d454acc3e1",
+              "_component": "ButtonGroup",
+              "_itemProps": {
+                "Stack": {
+                  "Items": {
+                    "width": {
+                      "$res": true,
+                      "xl": "512px"
+                    },
+                    "marginBottom": {
+                      "$res": true,
+                      "xl": {
+                        "value": "0px",
+                        "tokenId": "0",
+                        "widgetId": "@easyblocks/space"
+                      }
+                    },
+                    "align": {
+                      "$res": true,
+                      "xl": "center"
+                    }
+                  }
+                }
+              },
+              "verticalLayout": false,
+              "gap": {
+                "$res": true,
+                "xl": {
+                  "value": "12px",
+                  "tokenId": "12",
+                  "widgetId": "@easyblocks/space"
+                }
+              },
+              "Buttons": [
+                {
+                  "_id": "011f1020-250f-4452-913b-651ac9ca7169",
+                  "_component": "Button",
+                  "_itemProps": {
+                    "ButtonGroup": {
+                      "Buttons": {}
+                    }
+                  },
+                  "Action": [],
+                  "variant": "label",
+                  "label": {
+                    "id": "local.7be2887f-cda4-4bf4-8a85-6af6d1fcfdf4",
+                    "value": {
+                      "en-US": "Tables"
+                    },
+                    "widgetId": "@easyblocks/local-text"
+                  },
+                  "icon": {
+                    "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
+                    "widgetId": "@easyblocks/icon"
+                  },
+                  "color": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#252525",
+                      "tokenId": "grey_05",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "minHeight": {
+                    "$res": true,
+                    "xl": "42"
+                  },
+                  "minWidth": {
+                    "$res": true,
+                    "xl": "100"
+                  },
+                  "horizontalPadding": {
+                    "$res": true,
+                    "xl": {
+                      "value": "16px",
+                      "tokenId": "16",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "gap": {
+                    "$res": true,
+                    "xl": {
+                      "value": "6px",
+                      "tokenId": "6",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "cornerMode": {
+                    "$res": true,
+                    "xl": "sharp"
+                  },
+                  "cornerRadius": {
+                    "$res": true,
+                    "xl": "12"
+                  },
+                  "font": {
+                    "$res": true,
+                    "xl": {
+                      "value": {
+                        "fontSize": 13,
+                        "lineHeight": 1.8,
+                        "fontFamily": "test-soehne-mono"
+                      },
+                      "tokenId": "body2"
+                    }
+                  },
+                  "underline": "off",
+                  "underlineOffset": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "iconSize": {
+                    "$res": true,
+                    "xl": "24"
+                  },
+                  "hasBackground": true,
+                  "backgroundColor": {
+                    "$res": true,
+                    "xl": {
+                      "tokenId": "white",
+                      "value": "#ffffff",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "hasBorder": false,
+                  "borderWidth": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "borderColor": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#000000",
+                      "widgetId": "@easyblocks/color",
+                      "tokenId": "black"
+                    }
+                  },
+                  "boxShadow": {
+                    "$res": true,
+                    "xl": {
+                      "value": "none",
+                      "tokenId": "none"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "dcb791e3-f4a9-4e8f-9e3b-2b79c2caa68e",
+      "_component": "BannerCard",
+      "_itemProps": {
+        "Grid": {
+          "Cards": {
+            "itemSize": {
+              "$res": true,
+              "xl": "1x1"
+            },
+            "verticalAlign": {
+              "$res": true,
+              "xl": "auto"
+            }
+          }
+        }
+      },
+      "coverPosition": {
+        "$res": true,
+        "xl": "background"
+      },
+      "coverVerticalAlign": "stretch",
+      "coverWidth": {
+        "$res": true,
+        "xl": "50%"
+      },
+      "snapCoverToEdges": false,
+      "CoverCard": [
+        {
+          "_id": "1c566f9a-c814-483f-ae77-3a81a14666e9",
+          "_component": "CoverCard",
+          "Background": [
+            {
+              "_id": "303d971a-3fb8-4e7d-93ab-8e68b51e1488",
+              "_component": "Image",
+              "image": {
+                "id": "6ULhRvjt92DY1mw3i0m27L",
+                "widgetId": "mockImage"
+              },
+              "aspectRatio": {
+                "$res": true,
+                "xl": {
+                  "value": "1:1",
+                  "widgetId": "@easyblocks/aspectRatio"
+                }
+              }
+            }
+          ],
+          "aspectRatio": {
+            "$res": true,
+            "xl": {
+              "tokenId": "portrait",
+              "value": "4:5",
+              "widgetId": "@easyblocks/aspectRatio"
+            }
+          },
+          "enableBorder": {
+            "$res": true,
+            "xl": false
+          },
+          "borderColor": {
+            "$res": true,
+            "xl": {
+              "value": "#000000",
+              "widgetId": "@easyblocks/color",
+              "tokenId": "black"
+            }
+          },
+          "borderLeft": "1",
+          "borderRight": "1",
+          "borderTop": "1",
+          "borderBottom": "1",
+          "cornerRadius": {
+            "$res": true,
+            "xl": "0"
+          },
+          "overlayOpacity": {
+            "$res": true,
+            "xl": "0"
+          }
+        }
+      ],
+      "stackPosition": {
+        "$res": true,
+        "xl": "bottom-center"
+      },
+      "paddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingInternal": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "forceStandardHorizontalPaddings": {
+        "$res": true,
+        "xl": false
+      },
+      "enableFill": {
+        "$res": true,
+        "xl": false
+      },
+      "fillColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "enableBorder": {
+        "$res": true,
+        "xl": false
+      },
+      "borderColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "borderLeft": "1",
+      "borderRight": "1",
+      "borderTop": "1",
+      "borderBottom": "1",
+      "cornerRadius": {
+        "$res": true,
+        "xl": "0"
+      },
+      "Stack": [
+        {
+          "_id": "ad58f8cb-681a-4443-8e4f-2aadb61ae3b9",
+          "_component": "Stack",
+          "Items": [
+            {
+              "_id": "3cf0ed81-1803-4b6c-bcc1-f30a9aa71121",
+              "_component": "ButtonGroup",
+              "_itemProps": {
+                "Stack": {
+                  "Items": {
+                    "width": {
+                      "$res": true,
+                      "xl": "512px"
+                    },
+                    "marginBottom": {
+                      "$res": true,
+                      "xl": {
+                        "value": "0px",
+                        "tokenId": "0",
+                        "widgetId": "@easyblocks/space"
+                      }
+                    },
+                    "align": {
+                      "$res": true,
+                      "xl": "center"
+                    }
+                  }
+                }
+              },
+              "verticalLayout": false,
+              "gap": {
+                "$res": true,
+                "xl": {
+                  "value": "12px",
+                  "tokenId": "12",
+                  "widgetId": "@easyblocks/space"
+                }
+              },
+              "Buttons": [
+                {
+                  "_id": "bc3bf2b3-cec8-408a-8bf1-421d438050e3",
+                  "_component": "Button",
+                  "_itemProps": {
+                    "ButtonGroup": {
+                      "Buttons": {}
+                    }
+                  },
+                  "Action": [],
+                  "variant": "label",
+                  "label": {
+                    "id": "local.9b40a68e-ccd3-4d93-a278-38c9c27a2d38",
+                    "value": {
+                      "en-US": "Side tables"
+                    },
+                    "widgetId": "@easyblocks/local-text"
+                  },
+                  "icon": {
+                    "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
+                    "widgetId": "@easyblocks/icon"
+                  },
+                  "color": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#252525",
+                      "tokenId": "grey_05",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "minHeight": {
+                    "$res": true,
+                    "xl": "42"
+                  },
+                  "minWidth": {
+                    "$res": true,
+                    "xl": "100"
+                  },
+                  "horizontalPadding": {
+                    "$res": true,
+                    "xl": {
+                      "value": "16px",
+                      "tokenId": "16",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "gap": {
+                    "$res": true,
+                    "xl": {
+                      "value": "6px",
+                      "tokenId": "6",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "cornerMode": {
+                    "$res": true,
+                    "xl": "sharp"
+                  },
+                  "cornerRadius": {
+                    "$res": true,
+                    "xl": "12"
+                  },
+                  "font": {
+                    "$res": true,
+                    "xl": {
+                      "value": {
+                        "fontSize": 13,
+                        "lineHeight": 1.8,
+                        "fontFamily": "test-soehne-mono"
+                      },
+                      "tokenId": "body2"
+                    }
+                  },
+                  "underline": "off",
+                  "underlineOffset": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "iconSize": {
+                    "$res": true,
+                    "xl": "24"
+                  },
+                  "hasBackground": true,
+                  "backgroundColor": {
+                    "$res": true,
+                    "xl": {
+                      "tokenId": "white",
+                      "value": "#ffffff",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "hasBorder": false,
+                  "borderWidth": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "borderColor": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#000000",
+                      "widgetId": "@easyblocks/color",
+                      "tokenId": "black"
+                    }
+                  },
+                  "boxShadow": {
+                    "$res": true,
+                    "xl": {
+                      "value": "none",
+                      "tokenId": "none"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "ce7d3a38-19d4-4910-ab6f-c6fc01e9a720",
+      "_component": "BannerCard",
+      "_itemProps": {
+        "Grid": {
+          "Cards": {
+            "itemSize": {
+              "$res": true,
+              "xl": "1x1"
+            },
+            "verticalAlign": {
+              "$res": true,
+              "xl": "auto"
+            }
+          }
+        }
+      },
+      "coverPosition": {
+        "$res": true,
+        "xl": "background"
+      },
+      "coverVerticalAlign": "stretch",
+      "coverWidth": {
+        "$res": true,
+        "xl": "50%"
+      },
+      "snapCoverToEdges": false,
+      "CoverCard": [
+        {
+          "_id": "0d8d40a6-8179-4471-bd13-583b02bd48fd",
+          "_component": "CoverCard",
+          "Background": [
+            {
+              "_id": "64c8649c-f4ce-48a7-949e-5217ca4f8417",
+              "_component": "Image",
+              "image": {
+                "id": "3Ty4OSVqTq7si3i27fovrc",
+                "widgetId": "mockImage"
+              },
+              "aspectRatio": {
+                "$res": true,
+                "xl": {
+                  "value": "1:1",
+                  "widgetId": "@easyblocks/aspectRatio"
+                }
+              }
+            }
+          ],
+          "aspectRatio": {
+            "$res": true,
+            "xl": {
+              "tokenId": "portrait",
+              "value": "4:5",
+              "widgetId": "@easyblocks/aspectRatio"
+            }
+          },
+          "enableBorder": {
+            "$res": true,
+            "xl": false
+          },
+          "borderColor": {
+            "$res": true,
+            "xl": {
+              "value": "#000000",
+              "widgetId": "@easyblocks/color",
+              "tokenId": "black"
+            }
+          },
+          "borderLeft": "1",
+          "borderRight": "1",
+          "borderTop": "1",
+          "borderBottom": "1",
+          "cornerRadius": {
+            "$res": true,
+            "xl": "0"
+          },
+          "overlayOpacity": {
+            "$res": true,
+            "xl": "0"
+          }
+        }
+      ],
+      "stackPosition": {
+        "$res": true,
+        "xl": "bottom-center"
+      },
+      "paddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingInternal": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "forceStandardHorizontalPaddings": {
+        "$res": true,
+        "xl": false
+      },
+      "enableFill": {
+        "$res": true,
+        "xl": false
+      },
+      "fillColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "enableBorder": {
+        "$res": true,
+        "xl": false
+      },
+      "borderColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "borderLeft": "1",
+      "borderRight": "1",
+      "borderTop": "1",
+      "borderBottom": "1",
+      "cornerRadius": {
+        "$res": true,
+        "xl": "0"
+      },
+      "Stack": [
+        {
+          "_id": "39c114c8-ca22-41e8-a256-1cbec289e0f3",
+          "_component": "Stack",
+          "Items": [
+            {
+              "_id": "0d0de1a9-1f56-470d-88cf-9d8dd38c90bc",
+              "_component": "ButtonGroup",
+              "_itemProps": {
+                "Stack": {
+                  "Items": {
+                    "width": {
+                      "$res": true,
+                      "xl": "512px"
+                    },
+                    "marginBottom": {
+                      "$res": true,
+                      "xl": {
+                        "value": "0px",
+                        "tokenId": "0",
+                        "widgetId": "@easyblocks/space"
+                      }
+                    },
+                    "align": {
+                      "$res": true,
+                      "xl": "center"
+                    }
+                  }
+                }
+              },
+              "verticalLayout": false,
+              "gap": {
+                "$res": true,
+                "xl": {
+                  "value": "12px",
+                  "tokenId": "12",
+                  "widgetId": "@easyblocks/space"
+                }
+              },
+              "Buttons": [
+                {
+                  "_id": "82ca5843-0a52-4481-8a5f-26ec9a21e7c6",
+                  "_component": "Button",
+                  "_itemProps": {
+                    "ButtonGroup": {
+                      "Buttons": {}
+                    }
+                  },
+                  "Action": [],
+                  "variant": "label",
+                  "label": {
+                    "id": "local.23764eb3-c463-4efa-b716-48bf19ce276a",
+                    "value": {
+                      "en-US": "Bookends"
+                    },
+                    "widgetId": "@easyblocks/local-text"
+                  },
+                  "icon": {
+                    "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
+                    "widgetId": "@easyblocks/icon"
+                  },
+                  "color": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#252525",
+                      "tokenId": "grey_05",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "minHeight": {
+                    "$res": true,
+                    "xl": "42"
+                  },
+                  "minWidth": {
+                    "$res": true,
+                    "xl": "100"
+                  },
+                  "horizontalPadding": {
+                    "$res": true,
+                    "xl": {
+                      "value": "16px",
+                      "tokenId": "16",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "gap": {
+                    "$res": true,
+                    "xl": {
+                      "value": "6px",
+                      "tokenId": "6",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "cornerMode": {
+                    "$res": true,
+                    "xl": "sharp"
+                  },
+                  "cornerRadius": {
+                    "$res": true,
+                    "xl": "12"
+                  },
+                  "font": {
+                    "$res": true,
+                    "xl": {
+                      "value": {
+                        "fontSize": 13,
+                        "lineHeight": 1.8,
+                        "fontFamily": "test-soehne-mono"
+                      },
+                      "tokenId": "body2"
+                    }
+                  },
+                  "underline": "off",
+                  "underlineOffset": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "iconSize": {
+                    "$res": true,
+                    "xl": "24"
+                  },
+                  "hasBackground": true,
+                  "backgroundColor": {
+                    "$res": true,
+                    "xl": {
+                      "tokenId": "white",
+                      "value": "#ffffff",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "hasBorder": false,
+                  "borderWidth": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "borderColor": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#000000",
+                      "widgetId": "@easyblocks/color",
+                      "tokenId": "black"
+                    }
+                  },
+                  "boxShadow": {
+                    "$res": true,
+                    "xl": {
+                      "value": "none",
+                      "tokenId": "none"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "10ae3fff-b72b-47cd-9fda-c99418c9a322",
+      "_component": "BannerCard",
+      "_itemProps": {
+        "Grid": {
+          "Cards": {
+            "itemSize": {
+              "$res": true,
+              "xl": "1x1"
+            },
+            "verticalAlign": {
+              "$res": true,
+              "xl": "auto"
+            }
+          }
+        }
+      },
+      "coverPosition": {
+        "$res": true,
+        "xl": "background"
+      },
+      "coverVerticalAlign": "stretch",
+      "coverWidth": {
+        "$res": true,
+        "xl": "50%"
+      },
+      "snapCoverToEdges": false,
+      "CoverCard": [
+        {
+          "_id": "9585de95-74f2-4389-ad8c-dc9cff849af7",
+          "_component": "CoverCard",
+          "Background": [
+            {
+              "_id": "21fe858d-1758-4eba-b8be-1a3d6b2f19cc",
+              "_component": "Image",
+              "image": {
+                "id": "6oLimElQUkKoUQ0XdtKxPj",
+                "widgetId": "mockImage"
+              },
+              "aspectRatio": {
+                "$res": true,
+                "xl": {
+                  "value": "1:1",
+                  "widgetId": "@easyblocks/aspectRatio"
+                }
+              }
+            }
+          ],
+          "aspectRatio": {
+            "$res": true,
+            "xl": {
+              "tokenId": "portrait",
+              "value": "4:5",
+              "widgetId": "@easyblocks/aspectRatio"
+            }
+          },
+          "enableBorder": {
+            "$res": true,
+            "xl": false
+          },
+          "borderColor": {
+            "$res": true,
+            "xl": {
+              "value": "#000000",
+              "widgetId": "@easyblocks/color",
+              "tokenId": "black"
+            }
+          },
+          "borderLeft": "1",
+          "borderRight": "1",
+          "borderTop": "1",
+          "borderBottom": "1",
+          "cornerRadius": {
+            "$res": true,
+            "xl": "0"
+          },
+          "overlayOpacity": {
+            "$res": true,
+            "xl": "0"
+          }
+        }
+      ],
+      "stackPosition": {
+        "$res": true,
+        "xl": "bottom-center"
+      },
+      "paddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingInternal": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "forceStandardHorizontalPaddings": {
+        "$res": true,
+        "xl": false
+      },
+      "enableFill": {
+        "$res": true,
+        "xl": false
+      },
+      "fillColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "enableBorder": {
+        "$res": true,
+        "xl": false
+      },
+      "borderColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "borderLeft": "1",
+      "borderRight": "1",
+      "borderTop": "1",
+      "borderBottom": "1",
+      "cornerRadius": {
+        "$res": true,
+        "xl": "0"
+      },
+      "Stack": [
+        {
+          "_id": "34ca84f1-1987-4c52-acac-ec1cf3d44ca3",
+          "_component": "Stack",
+          "Items": [
+            {
+              "_id": "9222ea63-3ce8-4395-8931-02959af373de",
+              "_component": "ButtonGroup",
+              "_itemProps": {
+                "Stack": {
+                  "Items": {
+                    "width": {
+                      "$res": true,
+                      "xl": "512px"
+                    },
+                    "marginBottom": {
+                      "$res": true,
+                      "xl": {
+                        "value": "0px",
+                        "tokenId": "0",
+                        "widgetId": "@easyblocks/space"
+                      }
+                    },
+                    "align": {
+                      "$res": true,
+                      "xl": "center"
+                    }
+                  }
+                }
+              },
+              "verticalLayout": false,
+              "gap": {
+                "$res": true,
+                "xl": {
+                  "value": "12px",
+                  "tokenId": "12",
+                  "widgetId": "@easyblocks/space"
+                }
+              },
+              "Buttons": [
+                {
+                  "_id": "b8bf85d7-310a-4f73-baad-bd0337e5d8e2",
+                  "_component": "Button",
+                  "_itemProps": {
+                    "ButtonGroup": {
+                      "Buttons": {}
+                    }
+                  },
+                  "Action": [],
+                  "variant": "label",
+                  "label": {
+                    "id": "local.9073fee9-5c4c-447b-a36f-1ac7dd2904c5",
+                    "value": {
+                      "en-US": "Shelving"
+                    },
+                    "widgetId": "@easyblocks/local-text"
+                  },
+                  "icon": {
+                    "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
+                    "widgetId": "@easyblocks/icon"
+                  },
+                  "color": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#252525",
+                      "tokenId": "grey_05",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "minHeight": {
+                    "$res": true,
+                    "xl": "42"
+                  },
+                  "minWidth": {
+                    "$res": true,
+                    "xl": "100"
+                  },
+                  "horizontalPadding": {
+                    "$res": true,
+                    "xl": {
+                      "value": "16px",
+                      "tokenId": "16",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "gap": {
+                    "$res": true,
+                    "xl": {
+                      "value": "6px",
+                      "tokenId": "6",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "cornerMode": {
+                    "$res": true,
+                    "xl": "sharp"
+                  },
+                  "cornerRadius": {
+                    "$res": true,
+                    "xl": "12"
+                  },
+                  "font": {
+                    "$res": true,
+                    "xl": {
+                      "value": {
+                        "fontSize": 13,
+                        "lineHeight": 1.8,
+                        "fontFamily": "test-soehne-mono"
+                      },
+                      "tokenId": "body2"
+                    }
+                  },
+                  "underline": "off",
+                  "underlineOffset": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "iconSize": {
+                    "$res": true,
+                    "xl": "24"
+                  },
+                  "hasBackground": true,
+                  "backgroundColor": {
+                    "$res": true,
+                    "xl": {
+                      "tokenId": "white",
+                      "value": "#ffffff",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "hasBorder": false,
+                  "borderWidth": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "borderColor": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#000000",
+                      "widgetId": "@easyblocks/color",
+                      "tokenId": "black"
+                    }
+                  },
+                  "boxShadow": {
+                    "$res": true,
+                    "xl": {
+                      "value": "none",
+                      "tokenId": "none"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "cc35d360-d714-4556-a6da-58da1ebbf340",
+      "_component": "BannerCard",
+      "_itemProps": {
+        "Grid": {
+          "Cards": {
+            "itemSize": {
+              "$res": true,
+              "xl": "1x1"
+            },
+            "verticalAlign": {
+              "$res": true,
+              "xl": "auto"
+            }
+          }
+        }
+      },
+      "coverPosition": {
+        "$res": true,
+        "xl": "background"
+      },
+      "coverVerticalAlign": "stretch",
+      "coverWidth": {
+        "$res": true,
+        "xl": "50%"
+      },
+      "snapCoverToEdges": false,
+      "CoverCard": [
+        {
+          "_id": "8a25bdc7-9c7a-4e81-b0a2-19e793888c85",
+          "_component": "CoverCard",
+          "Background": [
+            {
+              "_id": "d5e79b86-9f1e-4302-94bd-f7ede8c232e3",
+              "_component": "Image",
+              "image": {
+                "id": "b3h4SyrjadkmOzn1chdMo",
+                "widgetId": "mockImage"
+              },
+              "aspectRatio": {
+                "$res": true,
+                "xl": {
+                  "value": "1:1",
+                  "widgetId": "@easyblocks/aspectRatio"
+                }
+              }
+            }
+          ],
+          "aspectRatio": {
+            "$res": true,
+            "xl": {
+              "tokenId": "portrait",
+              "value": "4:5",
+              "widgetId": "@easyblocks/aspectRatio"
+            }
+          },
+          "enableBorder": {
+            "$res": true,
+            "xl": false
+          },
+          "borderColor": {
+            "$res": true,
+            "xl": {
+              "value": "#000000",
+              "widgetId": "@easyblocks/color",
+              "tokenId": "black"
+            }
+          },
+          "borderLeft": "1",
+          "borderRight": "1",
+          "borderTop": "1",
+          "borderBottom": "1",
+          "cornerRadius": {
+            "$res": true,
+            "xl": "0"
+          },
+          "overlayOpacity": {
+            "$res": true,
+            "xl": "0"
+          }
+        }
+      ],
+      "stackPosition": {
+        "$res": true,
+        "xl": "bottom-center"
+      },
+      "paddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingLeft": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingRight": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingTop": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "noFillPaddingBottom": {
+        "$res": true,
+        "xl": {
+          "value": "0px",
+          "tokenId": "0",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "paddingInternal": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "forceStandardHorizontalPaddings": {
+        "$res": true,
+        "xl": false
+      },
+      "enableFill": {
+        "$res": true,
+        "xl": false
+      },
+      "fillColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "enableBorder": {
+        "$res": true,
+        "xl": false
+      },
+      "borderColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "borderLeft": "1",
+      "borderRight": "1",
+      "borderTop": "1",
+      "borderBottom": "1",
+      "cornerRadius": {
+        "$res": true,
+        "xl": "0"
+      },
+      "Stack": [
+        {
+          "_id": "5d1502e9-778b-4d00-abca-191d8c26a6fa",
+          "_component": "Stack",
+          "Items": [
+            {
+              "_id": "1d125c17-6b98-4c77-b984-0a19edd2f57c",
+              "_component": "ButtonGroup",
+              "_itemProps": {
+                "Stack": {
+                  "Items": {
+                    "width": {
+                      "$res": true,
+                      "xl": "512px"
+                    },
+                    "marginBottom": {
+                      "$res": true,
+                      "xl": {
+                        "value": "0px",
+                        "tokenId": "0",
+                        "widgetId": "@easyblocks/space"
+                      }
+                    },
+                    "align": {
+                      "$res": true,
+                      "xl": "center"
+                    }
+                  }
+                }
+              },
+              "verticalLayout": false,
+              "gap": {
+                "$res": true,
+                "xl": {
+                  "value": "12px",
+                  "tokenId": "12",
+                  "widgetId": "@easyblocks/space"
+                }
+              },
+              "Buttons": [
+                {
+                  "_id": "606536ec-6335-466d-a7a2-8e7ded05da50",
+                  "_component": "Button",
+                  "_itemProps": {
+                    "ButtonGroup": {
+                      "Buttons": {}
+                    }
+                  },
+                  "Action": [],
+                  "variant": "label",
+                  "label": {
+                    "id": "local.59a499ab-b378-4177-8c0d-764c71edb48b",
+                    "value": {
+                      "en-US": "Serving"
+                    },
+                    "widgetId": "@easyblocks/local-text"
+                  },
+                  "icon": {
+                    "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
+                    "widgetId": "@easyblocks/icon"
+                  },
+                  "color": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#252525",
+                      "tokenId": "grey_05",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "minHeight": {
+                    "$res": true,
+                    "xl": "42"
+                  },
+                  "minWidth": {
+                    "$res": true,
+                    "xl": "100"
+                  },
+                  "horizontalPadding": {
+                    "$res": true,
+                    "xl": {
+                      "value": "16px",
+                      "tokenId": "16",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "gap": {
+                    "$res": true,
+                    "xl": {
+                      "value": "6px",
+                      "tokenId": "6",
+                      "widgetId": "@easyblocks/space"
+                    }
+                  },
+                  "cornerMode": {
+                    "$res": true,
+                    "xl": "sharp"
+                  },
+                  "cornerRadius": {
+                    "$res": true,
+                    "xl": "12"
+                  },
+                  "font": {
+                    "$res": true,
+                    "xl": {
+                      "value": {
+                        "fontSize": 13,
+                        "lineHeight": 1.8,
+                        "fontFamily": "test-soehne-mono"
+                      },
+                      "tokenId": "body2"
+                    }
+                  },
+                  "underline": "off",
+                  "underlineOffset": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "iconSize": {
+                    "$res": true,
+                    "xl": "24"
+                  },
+                  "hasBackground": true,
+                  "backgroundColor": {
+                    "$res": true,
+                    "xl": {
+                      "tokenId": "white",
+                      "value": "#ffffff",
+                      "widgetId": "@easyblocks/color"
+                    }
+                  },
+                  "hasBorder": false,
+                  "borderWidth": {
+                    "$res": true,
+                    "xl": "1"
+                  },
+                  "borderColor": {
+                    "$res": true,
+                    "xl": {
+                      "value": "#000000",
+                      "widgetId": "@easyblocks/color",
+                      "tokenId": "black"
+                    }
+                  },
+                  "boxShadow": {
+                    "$res": true,
+                    "xl": {
+                      "value": "none",
+                      "tokenId": "none"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variant": {
+    "$res": true,
+    "xl": "grid"
+  },
+  "numberOfItems": {
+    "$res": true,
+    "xl": "4"
+  },
+  "fractionalItemWidth": {
+    "$res": true,
+    "xl": "1.25"
+  },
+  "columnGap": {
+    "$res": true,
+    "xl": {
+      "tokenId": "1",
+      "value": "1px",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "rowGap": {
+    "$res": true,
+    "xl": {
+      "tokenId": "1",
+      "value": "1px",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "verticalAlign": {
+    "$res": true,
+    "xl": "top"
+  },
+  "showSliderControls": {
+    "$res": true,
+    "xl": false
+  },
+  "shouldSliderItemsBeVisibleOnMargin": {
+    "$res": true,
+    "xl": true
+  },
+  "gridMainObjectAspectRatio": {
+    "$res": true,
+    "xl": {
+      "value": "1:1",
+      "widgetId": "@easyblocks/aspectRatio"
+    }
+  },
+  "paddingTop": {
+    "$res": true,
+    "xl": {
+      "value": "0px",
+      "tokenId": "0",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "paddingBottom": {
+    "$res": true,
+    "xl": {
+      "value": "0px",
+      "tokenId": "0",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "paddingLeft": {
+    "$res": true,
+    "xl": {
+      "value": "0px",
+      "tokenId": "0",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "paddingRight": {
+    "$res": true,
+    "xl": {
+      "value": "0px",
+      "tokenId": "0",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "LeftArrow": [
+    {
+      "_id": "e8261c54-9aaa-4c91-9fa0-7f85e747cdcd",
+      "_component": "Button",
+      "_itemProps": {
+        "Grid": {
+          "LeftArrow": {}
+        }
+      },
+      "Action": [],
+      "variant": "icon",
+      "label": {
+        "id": "local.69906a71-7fa3-4426-ae40-fc264f7e44ab",
+        "value": {
+          "en-US": "Click me"
+        },
+        "widgetId": "@easyblocks/local-text"
+      },
+      "icon": {
+        "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"red\" width=\"100px\" height=\"100px\"><path d=\"M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z\"/></svg>",
+        "tokenId": "arrowLeft",
+        "widgetId": "@easyblocks/icon"
+      },
+      "color": {
+        "$res": true,
+        "xl": {
+          "tokenId": "black",
+          "value": "#000000",
+          "widgetId": "@easyblocks/color"
+        }
+      },
+      "minHeight": {
+        "$res": true,
+        "xl": "42"
+      },
+      "minWidth": {
+        "$res": true,
+        "xl": "100"
+      },
+      "horizontalPadding": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "gap": {
+        "$res": true,
+        "xl": {
+          "value": "6px",
+          "tokenId": "6",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "cornerMode": {
+        "$res": true,
+        "xl": "circled"
+      },
+      "cornerRadius": {
+        "$res": true,
+        "xl": "12"
+      },
+      "font": {
+        "$res": true,
+        "xl": {
+          "value": {
+            "fontSize": 13,
+            "lineHeight": 1.8,
+            "fontFamily": "test-soehne-mono"
+          },
+          "tokenId": "body2"
+        }
+      },
+      "underline": "on-custom",
+      "underlineOffset": {
+        "$res": true,
+        "xl": "3"
+      },
+      "iconSize": {
+        "$res": true,
+        "xl": "24"
+      },
+      "hasBackground": true,
+      "backgroundColor": {
+        "$res": true,
+        "xl": {
+          "tokenId": "transparent-grey-light",
+          "value": "#D8D8D880",
+          "widgetId": "@easyblocks/color"
+        }
+      },
+      "hasBorder": false,
+      "borderWidth": {
+        "$res": true,
+        "xl": "1"
+      },
+      "borderColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "tokenId": "black",
+          "widgetId": "@easyblocks/color"
+        }
+      },
+      "boxShadow": {
+        "$res": true,
+        "xl": {
+          "value": "none",
+          "tokenId": "none"
+        }
+      }
+    }
+  ],
+  "leftArrowPlacement": {
+    "$res": true,
+    "xl": "inside"
+  },
+  "leftArrowOffset": {
+    "$res": true,
+    "xl": {
+      "value": "0px",
+      "tokenId": "0",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "RightArrow": [
+    {
+      "_id": "0effc661-0076-483d-9a4a-f843d027c1e9",
+      "_component": "Button",
+      "_itemProps": {
+        "Grid": {
+          "RightArrow": {}
+        }
+      },
+      "Action": [],
+      "variant": "icon",
+      "label": {
+        "id": "local.11e95d07-cf77-4e43-b676-ecf482ce8c6c",
+        "value": {
+          "en-US": "Click me"
+        },
+        "widgetId": "@easyblocks/local-text"
+      },
+      "icon": {
+        "tokenId": "arrowRight",
+        "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z\"/></svg>",
+        "widgetId": "@easyblocks/icon"
+      },
+      "color": {
+        "$res": true,
+        "xl": {
+          "tokenId": "black",
+          "value": "#000000",
+          "widgetId": "@easyblocks/color"
+        }
+      },
+      "minHeight": {
+        "$res": true,
+        "xl": "42"
+      },
+      "minWidth": {
+        "$res": true,
+        "xl": "100"
+      },
+      "horizontalPadding": {
+        "$res": true,
+        "xl": {
+          "value": "16px",
+          "tokenId": "16",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "gap": {
+        "$res": true,
+        "xl": {
+          "value": "6px",
+          "tokenId": "6",
+          "widgetId": "@easyblocks/space"
+        }
+      },
+      "cornerMode": {
+        "$res": true,
+        "xl": "circled"
+      },
+      "cornerRadius": {
+        "$res": true,
+        "xl": "12"
+      },
+      "font": {
+        "$res": true,
+        "xl": {
+          "value": {
+            "fontSize": 13,
+            "lineHeight": 1.8,
+            "fontFamily": "test-soehne-mono"
+          },
+          "tokenId": "body2"
+        }
+      },
+      "underline": "on-custom",
+      "underlineOffset": {
+        "$res": true,
+        "xl": "3"
+      },
+      "iconSize": {
+        "$res": true,
+        "xl": "24"
+      },
+      "hasBackground": true,
+      "backgroundColor": {
+        "$res": true,
+        "xl": {
+          "tokenId": "transparent-grey-light",
+          "value": "#D8D8D880",
+          "widgetId": "@easyblocks/color"
+        }
+      },
+      "hasBorder": false,
+      "borderWidth": {
+        "$res": true,
+        "xl": "1"
+      },
+      "borderColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "tokenId": "black",
+          "widgetId": "@easyblocks/color"
+        }
+      },
+      "boxShadow": {
+        "$res": true,
+        "xl": {
+          "value": "none",
+          "tokenId": "none"
+        }
+      }
+    }
+  ],
+  "rightArrowPlacement": {
+    "$res": true,
+    "xl": "inside"
+  },
+  "rightArrowOffset": {
+    "$res": true,
+    "xl": {
+      "tokenId": "0",
+      "value": "0px",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "headerMode": "none",
+  "layout1Stack": "left",
+  "layout2Stacks": {
+    "$res": true,
+    "xl": "left-right"
+  },
+  "layout2StacksVerticalAlign": {
+    "$res": true,
+    "xl": "center"
+  },
+  "headerStacksGap": {
+    "$res": true,
+    "xl": {
+      "value": "12px",
+      "tokenId": "12",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "headerSectionGap": {
+    "$res": true,
+    "xl": {
+      "value": "12px",
+      "tokenId": "12",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "footerSectionGap": {
+    "$res": true,
+    "xl": {
+      "value": "12px",
+      "tokenId": "12",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "HeaderStack": [
+    {
+      "_id": "d03a0af7-edd9-4b96-b8b0-3963acaf5309",
+      "_component": "Stack",
+      "Items": []
+    }
+  ],
+  "HeaderSecondaryStack": [
+    {
+      "_id": "78511da5-248a-4f3c-8181-d61aaced2d3f",
+      "_component": "Stack",
+      "Items": []
+    }
+  ],
+  "Background__": [],
+  "padding": {
+    "$res": true,
+    "xl": {
+      "value": "24px",
+      "tokenId": "24",
+      "widgetId": "@easyblocks/space"
+    }
+  }
+}

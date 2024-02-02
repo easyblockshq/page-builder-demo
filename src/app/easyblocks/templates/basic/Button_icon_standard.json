@@ -1,0 +1,112 @@
+{
+  "_id": "1a0c26fb-202d-4603-a912-514ebb32ff6a",
+  "_component": "Button",
+  "_itemProps": {
+    "ButtonGroup": {
+      "Buttons": {}
+    }
+  },
+  "Action": [],
+  "variant": "icon",
+  "label": {
+    "id": "local.c44c0687-58a1-4ab1-9d6d-86debd292b74",
+    "value": {
+      "en-US": "Click me"
+    },
+    "widgetId": "@easyblocks/local-text"
+  },
+  "icon": {
+    "tokenId": "arrowLeft",
+    "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"red\" width=\"100px\" height=\"100px\"><path d=\"M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z\"/></svg>",
+    "widgetId": "@easyblocks/icon"
+  },
+  "color": {
+    "$res": true,
+    "xl": {
+      "tokenId": "white",
+      "value": "#ffffff",
+      "widgetId": "@easyblocks/color"
+    }
+  },
+  "minHeight": {
+    "$res": true,
+    "xl": "42"
+  },
+  "minWidth": {
+    "$res": true,
+    "xl": "100"
+  },
+  "horizontalPadding": {
+    "$res": true,
+    "xl": {
+      "tokenId": "16",
+      "value": "16px",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "gap": {
+    "$res": true,
+    "xl": {
+      "value": "6px",
+      "tokenId": "6",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "cornerMode": {
+    "$res": true,
+    "xl": "circled"
+  },
+  "cornerRadius": {
+    "$res": true,
+    "xl": "12"
+  },
+  "font": {
+    "$res": true,
+    "xl": {
+      "tokenId": "body2",
+      "value": {
+        "fontSize": 13,
+        "lineHeight": 1.8,
+        "fontFamily": "test-soehne-mono"
+      }
+    }
+  },
+  "underline": "on-custom",
+  "underlineOffset": {
+    "$res": true,
+    "xl": "3"
+  },
+  "iconSize": {
+    "$res": true,
+    "xl": "24"
+  },
+  "hasBackground": true,
+  "backgroundColor": {
+    "$res": true,
+    "xl": {
+      "tokenId": "grey_05",
+      "value": "#252525",
+      "widgetId": "@easyblocks/color"
+    }
+  },
+  "hasBorder": false,
+  "borderWidth": {
+    "$res": true,
+    "xl": "1"
+  },
+  "borderColor": {
+    "$res": true,
+    "xl": {
+      "value": "#000000",
+      "widgetId": "@easyblocks/color",
+      "tokenId": "black"
+    }
+  },
+  "boxShadow": {
+    "$res": true,
+    "xl": {
+      "tokenId": "none",
+      "value": "none"
+    }
+  }
+}

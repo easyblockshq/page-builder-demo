@@ -1,0 +1,149 @@
+{
+  "_id": "a0bcfd2e-cb8a-485e-aba8-582b6e09ee18",
+  "_component": "TwoCards",
+  "_itemProps": {
+    "StandardPage": {
+      "data": {
+        "topMargin": {
+          "$res": true,
+          "xl": {
+            "value": "0px",
+            "tokenId": "0",
+            "widgetId": "@easyblocks/space"
+          }
+        },
+        "bottomMargin": {
+          "$res": true,
+          "xl": {
+            "value": "32px",
+            "tokenId": "32",
+            "widgetId": "@easyblocks/space"
+          }
+        }
+      }
+    }
+  },
+  "containerMargin": {
+    "$res": true,
+    "xl": {
+      "value": {
+        "$res": true,
+        "md": "5vw",
+        "lg": "8vw"
+      },
+      "tokenId": "containerMargin.standard",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "containerMaxWidth": {
+    "$res": true,
+    "xl": {
+      "value": -1,
+      "tokenId": "none"
+    }
+  },
+  "Card1": [],
+  "Card2": [],
+  "card1Width": {
+    "$res": true,
+    "xl": "12"
+  },
+  "card1EscapeMargin": {
+    "$res": true,
+    "xl": false
+  },
+  "card2Width": {
+    "$res": true,
+    "xl": "12"
+  },
+  "card2EscapeMargin": {
+    "$res": true,
+    "xl": false
+  },
+  "verticalLayout": {
+    "$res": true,
+    "xl": "align-top"
+  },
+  "verticalOffset": {
+    "$res": true,
+    "xl": "-4"
+  },
+  "collapse": {
+    "$res": true,
+    "xl": false
+  },
+  "gap": {
+    "$res": true,
+    "xl": {
+      "value": "32px",
+      "tokenId": "32",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "verticalGap": {
+    "$res": true,
+    "xl": {
+      "value": "24px",
+      "tokenId": "24",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "invertCollapsed": false,
+  "headerMode": "none",
+  "layout1Stack": "left",
+  "layout2Stacks": {
+    "$res": true,
+    "xl": "left-right"
+  },
+  "layout2StacksVerticalAlign": {
+    "$res": true,
+    "xl": "center"
+  },
+  "headerStacksGap": {
+    "$res": true,
+    "xl": {
+      "value": "12px",
+      "tokenId": "12",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "headerSectionGap": {
+    "$res": true,
+    "xl": {
+      "value": "12px",
+      "tokenId": "12",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "footerSectionGap": {
+    "$res": true,
+    "xl": {
+      "value": "12px",
+      "tokenId": "12",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "HeaderStack": [
+    {
+      "_id": "881b6a2f-da1a-4b69-a332-6f20bd79f81a",
+      "_component": "Stack",
+      "Items": []
+    }
+  ],
+  "HeaderSecondaryStack": [
+    {
+      "_id": "292b1f35-2137-4804-9c20-413fc08c8199",
+      "_component": "Stack",
+      "Items": []
+    }
+  ],
+  "Background__": [],
+  "padding": {
+    "$res": true,
+    "xl": {
+      "value": "24px",
+      "tokenId": "24",
+      "widgetId": "@easyblocks/space"
+    }
+  }
+}

@@ -1,0 +1,547 @@
+{
+  "_id": "72d82508-4f68-4bcc-85ac-21db05e5349b",
+  "_component": "BannerCard",
+  "_itemProps": {
+    "Grid": {
+      "Cards": {
+        "itemSize": {
+          "$res": true,
+          "xl": "1x1"
+        },
+        "verticalAlign": {
+          "$res": true,
+          "xl": "auto"
+        }
+      }
+    }
+  },
+  "coverPosition": {
+    "$res": true,
+    "xl": "hide"
+  },
+  "coverVerticalAlign": "stretch",
+  "coverWidth": {
+    "$res": true,
+    "xl": "50%"
+  },
+  "snapCoverToEdges": false,
+  "CoverCard": [
+    {
+      "_id": "c5c8d2b2-c0a0-4310-b437-036d9ea21fa7",
+      "_component": "CoverCard",
+      "Background": [
+        {
+          "_id": "621d4c6f-f391-4756-b75b-df59b385c1dd",
+          "_component": "Image",
+          "image": {
+            "id": null,
+            "widgetId": "mockImage"
+          },
+          "aspectRatio": {
+            "$res": true,
+            "xl": {
+              "value": "1:1",
+              "widgetId": "@easyblocks/aspectRatio"
+            }
+          }
+        }
+      ],
+      "aspectRatio": {
+        "$res": true,
+        "xl": {
+          "value": "natural",
+          "widgetId": "@easyblocks/aspectRatio"
+        }
+      },
+      "enableBorder": {
+        "$res": true,
+        "xl": false
+      },
+      "borderColor": {
+        "$res": true,
+        "xl": {
+          "value": "#000000",
+          "widgetId": "@easyblocks/color",
+          "tokenId": "black"
+        }
+      },
+      "borderLeft": "1",
+      "borderRight": "1",
+      "borderTop": "1",
+      "borderBottom": "1",
+      "cornerRadius": {
+        "$res": true,
+        "xl": "0"
+      },
+      "overlayOpacity": {
+        "$res": true,
+        "xl": "0"
+      }
+    }
+  ],
+  "stackPosition": {
+    "$res": true,
+    "xl": "top-left"
+  },
+  "paddingLeft": {
+    "$res": true,
+    "xl": {
+      "value": "16px",
+      "tokenId": "16",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "paddingRight": {
+    "$res": true,
+    "xl": {
+      "value": "16px",
+      "tokenId": "16",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "paddingTop": {
+    "$res": true,
+    "xl": {
+      "value": "16px",
+      "tokenId": "16",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "paddingBottom": {
+    "$res": true,
+    "xl": {
+      "value": "16px",
+      "tokenId": "16",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "noFillPaddingLeft": {
+    "$res": true,
+    "xl": {
+      "value": "0px",
+      "tokenId": "0",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "noFillPaddingRight": {
+    "$res": true,
+    "xl": {
+      "value": "0px",
+      "tokenId": "0",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "noFillPaddingTop": {
+    "$res": true,
+    "xl": {
+      "value": "0px",
+      "tokenId": "0",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "noFillPaddingBottom": {
+    "$res": true,
+    "xl": {
+      "value": "0px",
+      "tokenId": "0",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "paddingInternal": {
+    "$res": true,
+    "xl": {
+      "value": "16px",
+      "tokenId": "16",
+      "widgetId": "@easyblocks/space"
+    }
+  },
+  "forceStandardHorizontalPaddings": {
+    "$res": true,
+    "xl": false
+  },
+  "enableFill": {
+    "$res": true,
+    "xl": false
+  },
+  "fillColor": {
+    "$res": true,
+    "xl": {
+      "value": "#000000",
+      "widgetId": "@easyblocks/color",
+      "tokenId": "black"
+    }
+  },
+  "enableBorder": {
+    "$res": true,
+    "xl": false
+  },
+  "borderColor": {
+    "$res": true,
+    "xl": {
+      "value": "#000000",
+      "widgetId": "@easyblocks/color",
+      "tokenId": "black"
+    }
+  },
+  "borderLeft": "1",
+  "borderRight": "1",
+  "borderTop": "1",
+  "borderBottom": "1",
+  "cornerRadius": {
+    "$res": true,
+    "xl": "0"
+  },
+  "Stack": [
+    {
+      "_id": "7054bf47-82cd-4f17-9adb-a2032ed28242",
+      "_component": "Stack",
+      "Items": [
+        {
+          "_id": "df7e9b62-e6f2-4ca8-a72b-30c7b38fef6d",
+          "_component": "@easyblocks/rich-text",
+          "_itemProps": {
+            "Stack": {
+              "Items": {
+                "width": {
+                  "$res": true,
+                  "xl": "512px"
+                },
+                "marginBottom": {
+                  "$res": true,
+                  "xl": {
+                    "tokenId": "16",
+                    "value": "16px",
+                    "widgetId": "@easyblocks/space"
+                  }
+                },
+                "align": {
+                  "$res": true,
+                  "xl": "left"
+                }
+              }
+            }
+          },
+          "elements": {
+            "en-US": [
+              {
+                "_component": "@easyblocks/rich-text-block-element",
+                "elements": [
+                  {
+                    "_component": "@easyblocks/rich-text-line-element",
+                    "elements": [
+                      {
+                        "_id": "f7e119b7-ba57-49f5-9033-4dc934e9ba66",
+                        "_component": "@easyblocks/rich-text-part",
+                        "color": {
+                          "$res": true,
+                          "xl": {
+                            "value": "#252525",
+                            "tokenId": "grey_05",
+                            "widgetId": "@easyblocks/color"
+                          }
+                        },
+                        "font": {
+                          "$res": true,
+                          "xl": {
+                            "tokenId": "heading2",
+                            "value": {
+                              "$res": true,
+                              "sm": {
+                                "fontFamily": "test-national-2",
+                                "fontSize": 24,
+                                "lineHeight": 1.2,
+                                "fontWeight": 700
+                              },
+                              "md": {
+                                "fontFamily": "test-national-2",
+                                "fontSize": 36,
+                                "lineHeight": 1.2,
+                                "fontWeight": 700
+                              }
+                            }
+                          }
+                        },
+                        "value": "Make it stand out",
+                        "TextWrapper": []
+                      }
+                    ],
+                    "_id": "b7b81342-034b-448a-92ba-78f12950d893"
+                  }
+                ],
+                "type": "paragraph",
+                "_id": "a66d1d49-2558-4d39-a0df-72b8f4c34303"
+              }
+            ]
+          },
+          "align": {
+            "$res": true,
+            "xl": "left"
+          },
+          "accessibilityRole": "div",
+          "isListStyleAuto": true,
+          "mainFont": {
+            "$res": true,
+            "xl": {
+              "value": {
+                "fontSize": 20,
+                "lineHeight": 1.8,
+                "fontFamily": "test-soehne-mono"
+              },
+              "tokenId": "body"
+            }
+          },
+          "mainColor": {
+            "$res": true,
+            "xl": {
+              "value": "#252525",
+              "tokenId": "grey_05",
+              "widgetId": "@easyblocks/color"
+            }
+          }
+        },
+        {
+          "_id": "1e7780c3-3053-4927-a68f-376a3ff49240",
+          "_component": "@easyblocks/rich-text",
+          "_itemProps": {
+            "Stack": {
+              "Items": {
+                "width": {
+                  "$res": true,
+                  "xl": "512px"
+                },
+                "marginBottom": {
+                  "$res": true,
+                  "xl": {
+                    "tokenId": "24",
+                    "value": "24px",
+                    "widgetId": "@easyblocks/space"
+                  }
+                },
+                "align": {
+                  "$res": true,
+                  "xl": "left"
+                }
+              }
+            }
+          },
+          "elements": {
+            "en-US": [
+              {
+                "_component": "@easyblocks/rich-text-block-element",
+                "elements": [
+                  {
+                    "_component": "@easyblocks/rich-text-line-element",
+                    "elements": [
+                      {
+                        "_id": "02eb6954-f290-4647-937e-07a43d84af68",
+                        "_component": "@easyblocks/rich-text-part",
+                        "color": {
+                          "$res": true,
+                          "xl": {
+                            "value": "#252525",
+                            "ref": "grey_05"
+                          }
+                        },
+                        "font": {
+                          "$res": true,
+                          "xl": {
+                            "value": {
+                              "$res": true,
+                              "2xl": {
+                                "fontSize": 13,
+                                "lineHeight": 1.8,
+                                "fontFamily": "test-soehne-mono"
+                              }
+                            },
+                            "ref": "body2"
+                          }
+                        },
+                        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                        "TextWrapper": []
+                      }
+                    ],
+                    "_id": "bc02e5c9-54d2-4257-9f99-f56703f0a245"
+                  }
+                ],
+                "type": "paragraph",
+                "_id": "4f1bf0bf-0685-4330-a717-80049f2da843"
+              }
+            ]
+          },
+          "align": {
+            "$res": true,
+            "xl": "left"
+          },
+          "accessibilityRole": "div",
+          "isListStyleAuto": true,
+          "mainFont": {
+            "$res": true,
+            "xl": {
+              "value": {
+                "fontSize": 20,
+                "lineHeight": 1.8,
+                "fontFamily": "test-soehne-mono"
+              },
+              "tokenId": "body"
+            }
+          },
+          "mainColor": {
+            "$res": true,
+            "xl": {
+              "value": "#252525",
+              "tokenId": "grey_05",
+              "widgetId": "@easyblocks/color"
+            }
+          }
+        },
+        {
+          "_id": "e9cec345-2732-4f62-82d0-6a1c341c9668",
+          "_component": "ButtonGroup",
+          "_itemProps": {
+            "Stack": {
+              "Items": {
+                "width": {
+                  "$res": true,
+                  "xl": "512px"
+                },
+                "marginBottom": {
+                  "$res": true,
+                  "xl": {
+                    "value": "0px",
+                    "tokenId": "0",
+                    "widgetId": "@easyblocks/space"
+                  }
+                },
+                "align": {
+                  "$res": true,
+                  "xl": "left"
+                }
+              }
+            }
+          },
+          "verticalLayout": false,
+          "gap": {
+            "$res": true,
+            "xl": {
+              "value": "12px",
+              "tokenId": "12",
+              "widgetId": "@easyblocks/space"
+            }
+          },
+          "Buttons": [
+            {
+              "_id": "14ce200d-c06a-4a1f-9425-cbcb94fc5106",
+              "_component": "Button",
+              "_itemProps": {
+                "ButtonGroup": {
+                  "Buttons": {}
+                }
+              },
+              "Action": [],
+              "variant": "label",
+              "label": {
+                "id": "local.9837e758-6c34-4a65-8422-b41ff57e6902",
+                "value": {
+                  "en-US": "Click me"
+                },
+                "widgetId": "@easyblocks/local-text"
+              },
+              "icon": {
+                "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
+                "widgetId": "@easyblocks/icon"
+              },
+              "color": {
+                "$res": true,
+                "xl": {
+                  "value": "#f9f8f3",
+                  "tokenId": "grey_01",
+                  "widgetId": "@easyblocks/color"
+                }
+              },
+              "minHeight": {
+                "$res": true,
+                "xl": "42"
+              },
+              "minWidth": {
+                "$res": true,
+                "xl": "100"
+              },
+              "horizontalPadding": {
+                "$res": true,
+                "xl": {
+                  "value": "16px",
+                  "tokenId": "16",
+                  "widgetId": "@easyblocks/space"
+                }
+              },
+              "gap": {
+                "$res": true,
+                "xl": {
+                  "value": "6px",
+                  "tokenId": "6",
+                  "widgetId": "@easyblocks/space"
+                }
+              },
+              "cornerMode": {
+                "$res": true,
+                "xl": "custom"
+              },
+              "cornerRadius": {
+                "$res": true,
+                "xl": "12"
+              },
+              "font": {
+                "$res": true,
+                "xl": {
+                  "value": {
+                    "fontSize": 13,
+                    "lineHeight": 1.8,
+                    "fontFamily": "test-soehne-mono"
+                  },
+                  "tokenId": "body2"
+                }
+              },
+              "underline": "off",
+              "underlineOffset": {
+                "$res": true,
+                "xl": "1"
+              },
+              "iconSize": {
+                "$res": true,
+                "xl": "24"
+              },
+              "hasBackground": true,
+              "backgroundColor": {
+                "$res": true,
+                "xl": {
+                  "value": "#252525",
+                  "tokenId": "grey_05",
+                  "widgetId": "@easyblocks/color"
+                }
+              },
+              "hasBorder": false,
+              "borderWidth": {
+                "$res": true,
+                "xl": "1"
+              },
+              "borderColor": {
+                "$res": true,
+                "xl": {
+                  "value": "#000000",
+                  "widgetId": "@easyblocks/color",
+                  "tokenId": "black"
+                }
+              },
+              "boxShadow": {
+                "$res": true,
+                "xl": {
+                  "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
